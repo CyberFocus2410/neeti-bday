@@ -15,7 +15,7 @@ body {
 #birthday-banner {
   font-family: 'Pacifico', cursive;
   font-size: 4.5em;
-  margin-top: 80px;
+  margin-top: 40px;
   animation: fadeIn 2s ease-in-out;
 }
 
@@ -23,10 +23,6 @@ body {
   display: none;
 }
 
-#cake-section {
-  margin-top: 30px;
-  text-align: center; /* Center all content inside */
-}
 
 
 .cake-wrapper {
@@ -38,10 +34,16 @@ body {
 }
 
 #cake-image {
-  width: 200px;
+  width: 280px;
   height: auto;
   margin-top: 20px;
 }
+
+#cake-section {
+  margin-top: 30px;
+  text-align: center; 
+}
+
 
 #knife {
   width: 120px;
@@ -49,6 +51,9 @@ body {
 }
 
 #cut-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
   padding: 15px 30px;
   font-size: 1.2em;
   background-color: #e91e63;
@@ -56,7 +61,6 @@ body {
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  display: inline-block;
 }
 
 #cut-button:hover {
