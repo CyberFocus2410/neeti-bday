@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #f8cdd8, #f7e7ce);
+  text-align: center;
+  color: #e91e63;
+}
+
+.final-banner {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5em;
+  margin-top: 80px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.photo-gallery {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.photo-gallery img {
+  width: 200px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.photo-gallery img:hover {
+  transform: scale(1.05);
+}
+
+.message {
+  margin-top: 30px;
+  font-size: 1.2em;
+  color: #c2185b;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}

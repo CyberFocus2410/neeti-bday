@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #f8cdd8, #f7e7ce);
+  text-align: center;
+  color: #e91e63;
+}
+
+.confetti {
+  font-size: 2.5em;
+  margin: 0 10px;
+}
+
+#birthday-banner {
+  font-family: 'Pacifico', cursive;
+  font-size: 4.5em;
+  margin-top: 80px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
+
+#cake-section {
+  margin-top: 40px;
+}
+
+#cake {
+  width: 250px;
+}
+
+#knife {
+  width: 100px;
+  margin-left: 20px;
+}
+
+#cut-button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#slice {
+  font-size: 3em;
+  margin-top: 20px;
+  animation: bounceIn 1s ease-in-out;
+}
+
+#birthday-banner {
+  animation: popIn 1.5s ease-in-out;
+}
+
+@keyframes popIn {
+  0% { transform: scale(0.5); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes bounceIn {
+  0% { transform: scale(0.5); opacity: 0; }
+  60% { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
