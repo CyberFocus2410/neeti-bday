@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #f8cdd8, #f7e7ce);
+  text-align: center;
+  color: #e91e63;
+  position: relative;
+}
+
+.title {
+  font-family: 'Pacifico', cursive;
+  font-size: 3em;
+  margin-top: 80px;
+}
+
+.countdown {
+  font-size: 2.5em;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.next-btn {
+  margin-top: 50px;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.next-btn:hover {
+  background-color: #c2185b;
+}
+
+/* Balloon corners */
+.corner {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: url('../assets/balloons2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.top-left { top: 10px; left: 10px; }
+.top-right { top: 10px; right: 10px; }
+.bottom-left { bottom: 10px; left: 10px; }
+.bottom-right { bottom: 10px; right: 10px; }
