@@ -25,7 +25,9 @@ body {
 
 #cake-section {
   margin-top: 30px;
+  text-align: center; /* Center all content inside */
 }
+
 
 .cake-wrapper {
   display: flex;
@@ -54,7 +56,7 @@ body {
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  margin-top: 10px;
+  display: inline-block;
 }
 
 #cut-button:hover {
