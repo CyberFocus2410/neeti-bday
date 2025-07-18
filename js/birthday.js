@@ -7,8 +7,11 @@ window.onload = function () {
   }, 5000);
 
   document.getElementById("cut-button").addEventListener("click", () => {
-    document.getElementById("slice").classList.remove("hidden");
+    const cakeImage = document.getElementById("cake-image");
+    cakeImage.src = "assets/cake_cut.png"; // This is your right-side image
+    cakeImage.alt = "Cake Slice";
 
+    // Optional: delay before redirecting to final page
     setTimeout(() => {
       window.location.href = "final.html";
     }, 5000);
